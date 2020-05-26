@@ -1,35 +1,39 @@
-body{
+body {
     background-color: #32f5f5;
     font: normal 15pt arial;
+    margin: 16px;
 }
 
-header{
+header {
     color: white;
     text-align: center;
 }
 
-img{
+img {
     width: 250px;
+    height: 250px;
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
+    margin-top: 20px;
 }
 
-section{
+section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    /* o max-width vai fazer com que o card não corte no celular */
+    max-width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.376);
+    box-shadow: 0px 0px 47px 3px rgba(0, 0, 0, 0.5);
 }
 
-div{
+div {
     text-align: center;
     padding: 10px;
 }
 
-footer{
+footer {
     color: white;
     text-align: center;
     font: italic;
-
 }
