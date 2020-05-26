@@ -7,7 +7,7 @@ function carregar() {
     const hora = data.getHours()
     const minut = data.getMinutes()
 
-    msg.innerHTML = `Agora são ${hora}h e ${minut}min.`
+    msg.innerHTML = `Agora são <strong>${hora}h${minut}min<strong/>.`
 
 
     if (hora >= 6 && hora < 12) {
